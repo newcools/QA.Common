@@ -14,6 +14,9 @@ namespace Samples
     [TestClass]
     public class SampleTest : TestBase
     {
+        /// <summary>
+        /// The expected string.
+        /// </summary>
         private const string ExpectedString = "Expected";
 
         #region Initialize and Cleanup
@@ -40,9 +43,7 @@ namespace Samples
         [ClassCleanup]
         public static void ClassCleanup()
         {
-            TestResult result = testClass.TestProject.TestResult;
-            result.Save();
-            result.CopyTo(ResultsDirectory);
+            SaveTestResults(testClass);
         }
 
         /// <summary>

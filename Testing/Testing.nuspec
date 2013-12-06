@@ -10,10 +10,10 @@
 		<description>This library can be used for unit test or automation test execution control and test results reporting.</description>
 		<copyright>Copyright 2013</copyright>
 		<language>en-AU</language>
-		<tags>test automation unittest</tags>
+		<tags>test automation unittest mstest</tags>
 		<frameworkAssemblies>
-			<frameworkAssembly assemblyName="System" targetFramework="net45" />
-			<frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net45" />
+			<frameworkAssembly assemblyName="System" targetFramework="net40" />
+			<frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net40" />
 		</frameworkAssemblies>
 		<dependencies>
 		  <!--dependency id="SampleDependency" version="1.0" /-->

@@ -145,6 +145,7 @@
         /// <returns>
         /// The number of rows affected.
         /// </returns>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities", Justification = "Query tool, use with care.")]
         public static int ExecuteSqlFile(string dbConnectionString, string sqlFile)
         {
             using (var connection = new SqlConnection(dbConnectionString))
@@ -174,6 +175,7 @@
         /// A string array will be returned, and each string stores column values
         ///     for each row in the query results and the value of individual column is separated by a semicolon
         /// </returns>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities", Justification = "Query tool, use with care.")]
         public static string[] ExecuteSqlQueries(string connectionString, string querystring)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -233,6 +235,7 @@
         /// <returns>
         /// The <see cref="DataTable"/>.
         /// </returns>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities", Justification = "Query tool, use with care.")]
         public static DataTable GetTableResults(ConnectionStringSettings connectionStringSettings, string query, params SqlParameter[] sqlParameters)
         {
             if (string.IsNullOrWhiteSpace(query))
