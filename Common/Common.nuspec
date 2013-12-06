@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Automation.Common.dll</id>
+		<version>$version$</version>
+		<title>Automation common library</title>
+		<authors>Chengwei Li</authors>
+		<owners>li.chengwei@outlook.com</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>This library defines some constants.</description>
+		<copyright>Copyright 2013</copyright>
+		<language>en-AU</language>
+		<tags>test automation unittest</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System" targetFramework="net45" />
+			<frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net45" />
+		</frameworkAssemblies>
+		<dependencies>
+		  <!--dependency id="SampleDependency" version="1.0" /-->
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Automation.Common.Testing.pdb" target="lib\net40\" />
+	</files>
+</package>

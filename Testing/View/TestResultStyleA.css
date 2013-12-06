@@ -1,0 +1,148 @@
+html{overflow-y:scroll;}
+
+body
+{
+font-size:12px;
+color:#000000;
+background-color:#FFF0F5;
+margin:0px;
+background-repeat:repeat-x;
+}
+
+body,p,h1,h2,h3,h4,table,td,th,ul,ol,textarea,input
+{
+font-family:verdana,helvetica,arial,sans-serif;
+}
+
+h1 {font-size:190%;margin-top:0px;font-weight:normal}
+h2 {font-size:160%;margin-top:10px;margin-bottom:10px;font-weight:normal}
+h3 {font-size:120%;font-weight:normal}
+h4 {font-size:100%;}
+h5 {font-size:90%;}
+h6 {font-size:80%;}
+
+h1,h2,h3,h4,h5,h6
+{
+background-color:transparent;
+color:#000000;
+}
+
+h2.tutheader
+{
+margin:0px;
+padding-top:2px;
+padding-bottom:2px;
+padding-left:4px;
+color:#303030;
+border:1px solid #d4d4d4;
+background-color:#ffffff;
+background-repeat:repeat-x;
+background-position:0px -50px;
+clear:both;
+}
+div {width:100%;}
+
+table,th,td,input,textarea
+{
+font-size:100%;
+}
+div.example
+{
+color:#000000;
+background-color:#e5eecc;
+margin:0px;
+padding:1px;
+border:1px solid #d4d4d4;
+border-collapse:collapse;
+background-repeat:repeat-x;
+clear:both;
+display:none;
+}
+table.reference
+{
+background-color:#ffffff;
+border:1px solid #c3c3c3;
+border-collapse:collapse;
+width:100%;
+}
+
+table.reference th
+{
+background-color:#e5eecc;
+border:1px solid #c3c3c3;
+padding:3px;
+vertical-align:top;
+text-align:left;
+}
+
+table.reference th.testClass
+{
+background-color:#EEE8AA;
+border-bottom-style:none;
+}
+table.reference th.testClassChildren
+{
+background-color:#EEE8AA;
+border-top-style:none;
+border-bottom-style:none;
+}
+
+table.reference th.testCase
+{
+background-color:#ffffff;
+font-style:italic;
+border-bottom-style:none;
+}
+
+table.reference th.testCaseChildren
+{
+background-color:#ffffff;
+font-style:italic;
+border-top-style:none;
+border-bottom-style:none;
+}
+
+table.reference td 
+{
+border:1px solid #c3c3c3;
+padding:3px;
+vertical-align:top;
+background-color:#E6E6FA;
+}
+
+table.reference td.Pass 
+{
+background-color:#228B22;
+}
+table.reference td.Fail 
+{
+background-color:#FF0000;
+}
+table.reference td.partialPass
+{
+background-color:#FFA500;
+}
+table.reference td.empty 
+{
+border:0;
+}
+table.reference td.message 
+{
+border:0;
+width:100%;
+}
+
+table.reference td.example_code
+{
+vertical-align:bottom;
+}
+span.left_h2 
+{
+color:#000000;
+font-weight:bold;
+font-style:italic
+}
+span.left_h3
+{
+background-color:#ddf60d;
+}
